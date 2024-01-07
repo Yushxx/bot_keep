@@ -13,6 +13,5 @@
     "node-telegram-bot-api": "^0.14.0",
     "lodash": "^4.17.21",
     "node-schedule": "^2.0.0"
-    // Ajoutez ici toutes les autres dépendances de votre projet avec leur version
   }
 }
