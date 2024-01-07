@@ -1,3 +1,18 @@
-"engines": {
-  "node": "16.x"
+{
+  "name": "bot_keep",
+  "version": "1.0.0",
+  "description": "Description de votre application",
+  "main": "bot.js", // Assurez-vous que le nom du fichier principal est correct ici
+  "scripts": {
+    "start": "node bot.js" // Commande pour démarrer votre application
+  },
+  "engines": {
+    "node": "16.x" // Spécifiez la version de Node.js que vous souhaitez utiliser
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.14.0",
+    "lodash": "^4.17.21",
+    "node-schedule": "^2.0.0"
+    // Ajoutez ici toutes les autres dépendances de votre projet avec leur version
+  }
 }
