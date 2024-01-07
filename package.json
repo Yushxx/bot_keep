@@ -2,12 +2,12 @@
   "name": "bot_keep",
   "version": "1.0.0",
   "description": "Description de votre application",
-  "main": "bot.js", // Assurez-vous que le nom du fichier principal est correct ici
+  "main": "index.js",
   "scripts": {
-    "start": "node bot.js" // Commande pour démarrer votre application
+    "start": "node index.js"
   },
   "engines": {
-    "node": "16.x" // Spécifiez la version de Node.js que vous souhaitez utiliser
+    "node": "16.x"
   },
   "dependencies": {
     "node-telegram-bot-api": "^0.14.0",
